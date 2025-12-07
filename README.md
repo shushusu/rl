@@ -17,21 +17,6 @@ pip install numpy pandas matplotlib
 pip install torch
 
 ## 3. 데이터 준비
-Kaggle Plant 2 Dataset 필요
-
-Plant_2_Generation_Data.csv
-
-Plant_2_Weather_Sensor_Data.csv
-
-전처리 실행
-python preprocessing.py
-
-
-실행 결과
-
-ma_train_data.npy 생성
-
-## 3. 데이터 준비
 
 본 프로젝트는 **Kaggle Plant 2 Dataset**을 사용합니다.
 
@@ -46,7 +31,7 @@ python preprocessing.py
 전처리 결과 생성 파일:
 
 ma_train_data.npy
-
+'''
 
 ## 4. 학습 실행
 
