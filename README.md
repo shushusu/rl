@@ -18,6 +18,14 @@ eval_a2_seed.py         # Multi-seed 성능 검증
 
 ma_train_data.npy       # 전처리된 학습 데이터
 
+- **preprocessing.py** — CSV → numpy 전처리
+- **hierarchical_env.py** — Manager/Worker 환경 정의
+- **train_hierarchical.py** — Transformer PPO 학습
+- **eval_a1_experiment.py** — A1 baseline 비교 (No-ESS / Rule / H-Trans)
+- **eval_a2_experiment.py** — A2 reward tuning 평가
+- **eval_a2_seed.py** — Multi-seed 성능 검증
+- **ma_train_data.npy** — 전처리된 학습 데이터
+
 ## 2. 환경 설정
 pip install numpy pandas matplotlib 
 pip install torch
