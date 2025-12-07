@@ -24,7 +24,7 @@ pip install torch
 - `Plant_2_Generation_Data.csv`
 - `Plant_2_Weather_Sensor_Data.csv`
 
-### ▶ 전처리 실행
+### 전처리 실행
 ```bash
 python preprocessing.py
 
