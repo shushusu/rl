@@ -66,14 +66,14 @@ python eval_a2_seed.py
 ## 6. 주요 결과 요약
 
 ### A1 Baseline 비교
-- Rule-based ESS가 **No-ESS 대비 비용 감소**
+- Rule-based ESS가 No-ESS 대비 비용 감소
 - 초기 H-Trans는 reward 설계 한계로 인해 성능 개선 필요
 
 ### A2 Reward Tuning 후
-- H-Trans가 **비용 · 피크전력 · ESS 안정성 모두 향상**
-- Manager/Worker 협업 구조가 안정적으로 작동하기 시작함
+- H-Trans가 비용 · 피크전력 · ESS 안정성 모두 향상
+- Manager/Worker 협업 구조가 안정적으로 작동
 
 ### Multi-Seed 실험 결과
-- 서로 다른 seed(0/1/2)에서도 **일관된 학습 패턴**
-- 학습 곡선이 매우 유사한 형태로 **안정적 수렴**
+- 서로 다른 seed(0/1/2)에서도 일관된 학습 패턴
+- 학습 곡선이 매우 유사한 형태로 수렴
 
