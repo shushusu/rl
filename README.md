@@ -32,7 +32,6 @@ python preprocessing.py
 ma_train_data.npy
 ```
 
-
 ## 4. 학습 실행
 
 Transformer 기반 Manager/Worker H-MARL 학습을 실행합니다.
@@ -69,7 +68,7 @@ python eval_a2_seed.py
 - Rule-based ESS가 No-ESS 대비 비용 감소
 - 초기 H-Trans는 reward 설계 한계로 인해 성능 개선 필요
 
-### A2 Reward Tuning 후
+### A2 Reward Tuning 적용
 - H-Trans가 비용 · 피크전력 · ESS 안정성 모두 향상
 - Manager/Worker 협업 구조가 안정적으로 작동
 
