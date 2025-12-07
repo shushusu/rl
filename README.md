@@ -31,6 +31,23 @@ python preprocessing.py
 
 ma_train_data.npy 생성
 
+## 3. 데이터 준비
+
+본 프로젝트는 **Kaggle Plant 2 Dataset**을 사용합니다.
+
+필요한 원본 CSV 파일:
+- `Plant_2_Generation_Data.csv`
+- `Plant_2_Weather_Sensor_Data.csv`
+
+### ▶ 전처리 실행
+```bash
+python preprocessing.py
+
+전처리 결과 생성 파일:
+
+ma_train_data.npy
+
+
 ## 4. 학습 실행
 
 Transformer 기반 Manager/Worker H-MARL 학습
