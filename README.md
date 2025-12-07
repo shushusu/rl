@@ -28,7 +28,7 @@ pip install torch
 ```bash
 python preprocessing.py
 
-# 전처리 결과 생성 파일
+전처리 결과 생성 파일
 ma_train_data.npy
 
 ## 4. 학습 실행
