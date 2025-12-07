@@ -24,12 +24,10 @@ pip install torch
 - `Plant_2_Generation_Data.csv`
 - `Plant_2_Weather_Sensor_Data.csv`
 
+```markdown
 ### ▶ 전처리 실행
 ```bash
 python preprocessing.py
-
-전처리 결과 생성 파일
-ma_train_data.npy
 
 ## 4. 학습 실행
 
